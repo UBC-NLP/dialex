@@ -1,6 +1,6 @@
 # DiaLex - A Benchmark for Evaluating Multidialectal Arabic Word Embeddings
 
-Word embeddings are a core component of modern natural language processing systems, making the ability to thoroughly evaluate them  a vital task. We describe DiaLex, a benchmark for intrinsic evaluation of dialectal Arabic word embeddings. DiaLex covers five important Arabic dialects: Algerian, Egyptian, Lebanese, Syrian, and Tunisian. Across these dialects, DiaLex provides a testbank for six syntactic and semantic relations, namely male to female, singular to dual, singular to plural, antonym, comparative, and genitive to past tense. DiaLex thus consists of a collection of word pairs representing each of the six relations in each of the five dialects. To demonstrate the utility of DiaLex, we use it to evaluate a set of existing and new Arabic word embeddings that we developed. Our benchmark, evaluation code and new word embedding models are publicly available https://github.com/dialex2020/DiaLex.
+Word embeddings are a core component of modern natural language processing systems, making the ability to thoroughly evaluate them  a vital task. We describe DiaLex, a benchmark for intrinsic evaluation of dialectal Arabic word embeddings. DiaLex covers five important Arabic dialects: Algerian, Egyptian, Lebanese, Syrian, and Tunisian. Across these dialects, DiaLex provides a testbank for six syntactic and semantic relations, namely male to female, singular to dual, singular to plural, antonym, comparative, and genitive to past tense. DiaLex thus consists of a collection of word pairs representing each of the six relations in each of the five dialects. To demonstrate the utility of DiaLex, we use it to evaluate a set of existing and new Arabic word embeddings that we developed.
 ## Word Embeddings Evaluation 
 
 Given our benchmark, we generate a test bank consisting of 260,827 tuples. 
@@ -34,3 +34,14 @@ After running jupyer notebook and opening *Evaluating_Word_Embeddings.ipynb*. Th
 **Output**
 * An xls workbook containing the accuracy spreasheet for each benchmark file included. 
 * A logger file containing the gensim output of the *evaluate_word_analogies()* used.
+
+
+## Citation
+Please use the following citation if you use ArSarcasm-v2:
+@article{abdul2021dialex,
+  title={DiaLex: A Benchmark for Evaluating Multidialectal Arabic Word Embeddings},
+  author={Abdul-Mageed, Muhammad and Elbassuoni, Shady and Doughman, Jad and Elmadany, AbdelRahim and Nagoudi, El Moatez Billah and Zoughby, Yorgo and Gaba, Ahmad Shaher Iskander and Helal, Ahmed and El-Razzaz, Mohammed},
+  booktitle = "Proceedings of the Sixth Arabic Natural Language Processing Workshop",
+  month = april,
+  year = "2021",
+}
