@@ -37,7 +37,8 @@ After running jupyer notebook and opening *Evaluating_Word_Embeddings.ipynb*. Th
 
 
 ## Citation
-Please use the following citation if you use ArSarcasm-v2:
+Please use the following citation if you use Dialex:
+```
 @article{abdul2021dialex,
   title={DiaLex: A Benchmark for Evaluating Multidialectal Arabic Word Embeddings},
   author={Abdul-Mageed, Muhammad and Elbassuoni, Shady and Doughman, Jad and Elmadany, AbdelRahim and Nagoudi, El Moatez Billah and Zoughby, Yorgo and Gaba, Ahmad Shaher Iskander and Helal, Ahmed and El-Razzaz, Mohammed},
@@ -45,3 +46,4 @@ Please use the following citation if you use ArSarcasm-v2:
   month = april,
   year = "2021",
 }
+```
