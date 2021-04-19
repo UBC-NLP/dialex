@@ -39,11 +39,25 @@ After running jupyer notebook and opening *Evaluating_Word_Embeddings.ipynb*. Th
 ## Citation
 Please use the following citation if you use Dialex:
 ```
-@article{abdul2021dialex,
-  title={DiaLex: A Benchmark for Evaluating Multidialectal Arabic Word Embeddings},
-  author={Abdul-Mageed, Muhammad and Elbassuoni, Shady and Doughman, Jad and Elmadany, AbdelRahim and Nagoudi, El Moatez Billah and Zoughby, Yorgo and Gaba, Ahmad Shaher Iskander and Helal, Ahmed and El-Razzaz, Mohammed},
-  booktitle = "Proceedings of the Sixth Arabic Natural Language Processing Workshop",
-  month = april,
-  year = "2021",
+@inproceedings{abdul-mageed-etal-2021-dialex,
+    title = "{D}ia{L}ex: A Benchmark for Evaluating Multidialectal {A}rabic Word Embeddings",
+    author = "Abdul-Mageed, Muhammad  and
+      Elbassuoni, Shady  and
+      Doughman, Jad  and
+      Elmadany, AbdelRahim  and
+      Nagoudi, El Moatez Billah  and
+      Zoughby, Yorgo  and
+      Shaher, Ahmad  and
+      Gaba, Iskander  and
+      Helal, Ahmed  and
+      El-Razzaz, Mohammed",
+    booktitle = "Proceedings of the Sixth Arabic Natural Language Processing Workshop",
+    month = apr,
+    year = "2021",
+    address = "Kyiv, Ukraine (Virtual)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.wanlp-1.2",
+    pages = "11--20",
+    abstract = "Word embeddings are a core component of modern natural language processing systems, making the ability to thoroughly evaluate them a vital task. We describe DiaLex, a benchmark for intrinsic evaluation of dialectal Arabic word embeddings. DiaLex covers five important Arabic dialects: Algerian, Egyptian, Lebanese, Syrian, and Tunisian. Across these dialects, DiaLex provides a testbank for six syntactic and semantic relations, namely male to female, singular to dual, singular to plural, antonym, comparative, and genitive to past tense. DiaLex thus consists of a collection of word pairs representing each of the six relations in each of the five dialects. To demonstrate the utility of DiaLex, we use it to evaluate a set of existing and new Arabic word embeddings that we developed. Beyond evaluation of word embeddings, DiaLex supports efforts to integrate dialects into the Arabic language curriculum. It can be easily translated into Modern Standard Arabic and English, which can be useful for evaluating word translation. Our benchmark, evaluation code, and new word embedding models will be publicly available.",
 }
 ```
